@@ -500,6 +500,7 @@ footer .footer-license a:hover{
     footer .footer-wikis{
         grid-template-columns: 1fr 1fr 1fr;
         height: 360px;
+        
     }
 
 }
@@ -514,12 +515,23 @@ footer .footer-license a:hover{
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 0 auto;
-        
+       
+    }
+
+    footer .footer-donate .sprite-donate{
+        min-width: 42px;
+        align-self:baseline;
+        margin-left: 20px;
+    }
+    footer .donate-text p{
+        text-align: left;
     }
     footer .footer-donate{
         width: 250px;
         height: 230px;
         margin-bottom: 0;
+        display: flex;
+        align-items: center;
         
     }
     footer .footer-apps{
@@ -553,6 +565,13 @@ footer .footer-license a:hover{
         margin-bottom: 0;
         
     }
+
+    footer .footer-donate .sprite-donate{
+        min-width: 42px;
+        align-self:baseline;
+        margin-top: 60px;
+    }
+
     footer .footer-apps{
         width: 35%;
         align-self: flex-start;
